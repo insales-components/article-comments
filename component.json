@@ -1,0 +1,16 @@
+{
+  "name": "article-comments",
+  "version": "1.0.0",
+  "description": "Комментарии к статье",
+  "author": "LiquidHub.ru",
+  "type": "snippets",
+  "homepage": "https://github.com/insales-components/article-comments",
+  "plugins": [],
+  "props": {
+    "plugins": false,
+    "cellsio": false,
+    "common": false,
+    "liquid": false
+  },
+  "dependencies": {}
+}
