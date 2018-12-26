@@ -12,7 +12,7 @@
     {% endunless %}
 
     {% if comment.errors.size > 0 %}
-      <div class="notice notice-error">
+      <div class="notice is-error">
 
         <div>
           {{ messages.fields_are_incorrect }}:
@@ -47,9 +47,9 @@
 
       {% if form.posted_successfully? %}
         {% if blog.moderated? %}
-          <div class="notice notice-success">{{ messages.comment_is_added_moderated }}</div>
+          <div class="notice is-success">{{ messages.comment_is_added_moderated }}</div>
         {% else %}
-          <div class="notice notice-success">{{ messages.comment_is_added }}</div>
+          <div class="notice is-success">{{ messages.comment_is_added }}</div>
         {% endif %}
       {% endif %}
       <div class="row is-grid">
